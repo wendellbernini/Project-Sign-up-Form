@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+    <div class="left-side">
+        <div>
+            <img src="odin-lined.png" alt="">
+            <h1>ODIN</h1>
+        </div>
+        <div><p>Photo by <span>Halie West</span>on <span>Unsplash</span></p></div>
+    </div>
+    <div class="right-side">
+        <div>
+            <h1>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+                Sign up now to get started.
+            </h1>
+            <h1>You <span style="font-style: italic;">know</span> you want to.</h1>
+        </div>
+        <div>
+            <form action="">
+                <div class="form-content">
+                    <h2>Let's do this!</h2>
+                <div class="columns">
+                    <div class="column-1">
+                        <section>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="" id="first_name" minlength="4" maxlength="20"
+                            pattern="^[A-Z][a-z]{1,}$"
+                            >
+                        </section>
+                        <section>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="" id="email">
+                        </section>
+                        <section>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="" id="password" minlength="5" maxlength="20">
+                            <span></span>
+                        </section>
+                    </div>
+                    <div class="column-2">
+                        <section>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="" id="last_name" 
+                            minlength="4" maxlength="20" pattern="^[A-Z][a-z]{1,}$">
+                        </section>
+                        <section>
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" name="" id="phone_number"
+                            pattern="^\d{10}|\(\d{2}\)\d{5}\-\d{4}$"
+                            >
+                        </section>
+                        <section>
+                            <label for="password_confirm">CONFIRM PASSWORD</label>
+                            <input type="password" name="" id="password_confirm" minlength="5" maxlength="20">
+                        </section>
+                    </div>
+            </div>
+        </div>
+            <div class="footer-content">
+                <button>Create Account</button>
+                <p>Already have an account? <span>Log In</span></p>
+            </div>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
